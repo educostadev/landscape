@@ -2,6 +2,16 @@
 
 # Cloud Native Landscape
 
+SVG 2 PNG Converted using the [Inkscape for windows](https://inkscape.org/)
+
+```
+inkscape.exe file.svg --export-png=file.png
+```
+
+
+
+
+
 ![Cloud Native Landscape Logo](https://raw.githubusercontent.com/cncf/artwork/master/other/cncf-landscape/horizontal/color/cncf-landscape-horizontal-color.png)
 
 - [Cloud Native Landscape](#cloud-native-landscape)
@@ -151,8 +161,8 @@ Please open an [issue](https://github.com/cncf/landscape/issues/new) or, for sen
 The file src/components/MainContent2.js describes the key elements of a
 landscape big picture. It specifies where to put these sections: App Definition
 and Development, Orchesteration & Management, Runtime,  Provisioning, Cloud,
-    Platform, Observability and Analyzis, Special. Also it specifies where to
-    locate the link to the serverless preview and an info with a QR code.
+​    Platform, Observability and Analyzis, Special. Also it specifies where to
+​    locate the link to the serverless preview and an info with a QR code.
 
 All these elements should have `top`, `left`, `width` and `height` properties to
 position them. `rows` and `cols` specify how much columns or rows we expect in a
@@ -170,7 +180,7 @@ Serverless has a same approach, files are
 `src/components/BigPicture/ServerlessContent.js`,
   `src/components/BigPicture/FullscreenServerless.js` and
   `tools/renderLandscape.js`, with a full width of 3450 (because of x3 zoom and
-      margins)
+​      margins)
 
 Sometimes the total height is changed too, then we need to adjust the height the
 same way as we adjust the width.
